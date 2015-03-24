@@ -1,5 +1,4 @@
 
-//2015年3月23日11:18 修改
 //LiuJianHua    
 var fs = require('fs');
 module.exports = function (grunt) {
