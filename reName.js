@@ -2,8 +2,6 @@
  *      Project: zept
  *     FileName: reName.js
  *         Desc: 批量修改文件名
- *       Author: guofan
- *        Email: hiafanti@gmail.com
  *      Version: 1.0.0
  *         Date: 14:54
  */
