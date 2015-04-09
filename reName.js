@@ -4,11 +4,12 @@ var fs = require('node-fs-extra');
  var config = './config/cachebusters_js.json';
  var fileDirectory ='./rename/js/';
  var prefix = '_';
-
- 
  var fileType = '.js';
  */
-exports.reName = function(config, src, fileDirectory, prefix, fileType) {
+
+
+
+11exports.reName = function(config, src, fileDirectory, prefix, fileType) {
     //先移除fileDirectory，创建fileDirectory目录
     try{
         fs.removeSync(fileDirectory);
