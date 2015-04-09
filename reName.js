@@ -1,4 +1,10 @@
-
+/**
+ *      Project: zept
+ *     FileName: reName.js
+ *         Desc: 批量修改文件名
+ *      Version: 1.0.0
+ *         Date: 11:59
+ */
 var fs = require('node-fs-extra');
 /*
  var config = './config/cachebusters_js.json';
@@ -6,10 +12,7 @@ var fs = require('node-fs-extra');
  var prefix = '_';
  var fileType = '.js';
  */
-
-
-
-11exports.reName = function(config, src, fileDirectory, prefix, fileType) {
+exports.reName = function(config, src, fileDirectory, prefix, fileType) {
     //先移除fileDirectory，创建fileDirectory目录
     try{
         fs.removeSync(fileDirectory);
