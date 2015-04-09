@@ -1,15 +1,11 @@
-/**
- *      Project: zept
- *     FileName: reName.js
- *         Desc: 批量修改文件名
- *      Version: 1.0.0
- *         Date: 14:54
- */
+
 var fs = require('node-fs-extra');
 /*
  var config = './config/cachebusters_js.json';
  var fileDirectory ='./rename/js/';
  var prefix = '_';
+
+ 
  var fileType = '.js';
  */
 exports.reName = function(config, src, fileDirectory, prefix, fileType) {
